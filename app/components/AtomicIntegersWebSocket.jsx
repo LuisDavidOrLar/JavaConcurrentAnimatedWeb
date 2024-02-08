@@ -49,7 +49,7 @@ const AtomicIntegersWebSocket = () => {
             console.log(str);
         },
     });
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         client.activate();
 
