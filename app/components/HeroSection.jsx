@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
 
-
+// eslint-disable-next-line react/no-unescaped-entities
 const HeroSection = () => {
   return (<section>
    <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -15,9 +15,9 @@ const HeroSection = () => {
         <br></br> 
         <TypeAnimation
       sequence={[
-        // Same substring at the start will only be typed out once, initially
+       
         'Java Concurrency API',
-        1000, // wait 1s before replacing "Mice" with "Hamsters"
+        1000,
         'Atomic Integer',
         1000,
         'Countdown Latch',
